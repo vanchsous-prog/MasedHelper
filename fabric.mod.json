@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "masedhelper",
+  "version": "${version}",
+  "name": "MasedWorld Helper",
+  "description": "Клиентский помощник для модерации чата MasedWorld.",
+  "authors": ["MasedHelper"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ru.masedhelper.MasedHelper"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
